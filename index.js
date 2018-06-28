@@ -1,3 +1,4 @@
 import channel from './lib/channel'
+import Cordova from './lib/cordova'
 
-console.log(20)
+window.cordova = new Cordova();
