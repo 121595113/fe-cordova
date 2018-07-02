@@ -22,4 +22,4 @@
 import cordova from './lib/cordova2';
 
 window.cordova = cordova;
-import './lib/init';
+import './lib/init2';

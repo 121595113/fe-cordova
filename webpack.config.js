@@ -3,9 +3,10 @@ const path = require('path');
 module.exports = {
     entry: "./index.js",
     output:{
-        path: path.resolve(__dirname, "dist"), 
+        path: path.resolve(__dirname, "dist"),
          filename: "cordova.js",
     },
+    devtool: 'cheap-module-eval-source-map',
     module:{
       rules:[
       {
@@ -21,6 +22,6 @@ module.exports = {
         // see webpack 1 upgrade guide
 
       },
-      ]  
+      ]
     }
 }
