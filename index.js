@@ -1,25 +1,8 @@
-// import channel from './lib/channel'
-// import Cordova from './lib/cordova'
-
-// window.cordova = new Cordova();
-
-// import {require, define} from './source/cordova-ios.js';
-
-// import  './plugins/track.js';
-// import aa from './plugins/fetchdata.js';
+import Cordova from './lib/cordova'
 
 // import pluginA from "pluginA";
 
-// cordova.注册('pluginA', pluginA);
-// console.log(111, aa)
+// Cordova.registerPlugin('pluginA', pluginA);
 
-// console.log([require(aa)])
+window.cordova = new Cordova();
 
-// // console.log(require('cordova/channel'))
-
-// require('cordova/init');
-
-import cordova from './lib/cordova2';
-
-window.cordova = cordova;
-import './lib/init2';
