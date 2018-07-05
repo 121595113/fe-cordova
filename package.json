@@ -2,7 +2,7 @@
   "name": "cordova",
   "version": "1.0.0",
   "description": "cordova 的改写",
-  "main": "index.js",
+  "main": "dist/cordova.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p",
