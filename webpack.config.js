@@ -7,7 +7,6 @@ module.exports = {
          filename: "cordova.js",
          libraryTarget: 'umd'
     },
-    devtool: 'cheap-module-eval-source-map',
     module:{
       rules:[
       {
