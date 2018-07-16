@@ -1,12 +1,13 @@
 {
-  "name": "cordova",
+  "name": "fe-cordova",
   "version": "1.0.0",
   "description": "cordova 的改写",
   "main": "dist/cordova.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p",
-    "dev": "webpack -w -d"
+    "dev": "webpack -w -d",
+    "prepublish": "npm run build"
   },
   "author": "",
   "license": "ISC",
