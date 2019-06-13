@@ -1,6 +1,6 @@
 {
   "name": "fe-cordova",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "cordova 的改写",
   "main": "dist/cordova.js",
   "scripts": {
